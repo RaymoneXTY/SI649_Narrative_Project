@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #002664; /* dark blue text */
+  }
+  
+  h2 {
+    color: #BB133E; /* red for headings */
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  p {
+    line-height: 1.6;
+    margin: 15px auto;
+    width: 80%;
+    color: #002664; /* dark blue text */
+    font-size: 16px;
+  }
+  
+  a {
+    color: #7F92B1; /* blue for links */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Visualization Container */
+  #vis {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+    background-color: #FFFFFF;
+    padding: 20px;
+  }
+  
+  /* Specific Vega-Embed Styles */
+  #vis.vega-embed {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #vis.vega-embed details,
+  #vis.vega-embed details summary {
+    position: relative;
+  }
+  
+  /* Buttons and Controls */
+  button,
+  input[type="submit"] {
+    background-color: #BB133E; /* red button */
+    color: #FFFFFF; /* white text */
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover,
+  input[type="submit"]:hover {
+    background-color: #7F92B1; /* blue on hover */
+  }
+
+  /* Footer */
+  footer {
+    background-color: #002664; /* dark blue */
+    color: #FFFFFF; /* white text */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
