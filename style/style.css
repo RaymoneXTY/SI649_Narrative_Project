@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #002664; /* Dark blue text */
+  }
+  
+  h1 {
+    color: #002664;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+  }
+  h2 {
+    color: #BB133E; /* red for headings */
+    text-align: left;
+    margin: 15px auto;
+    width: 80%;
+  }
+
+  h3 {
+    color: #002664;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  
+  p {
+    line-height: 1.6;
+    margin: 15px auto;
+    width: 80%;
+    color: #002664; /* dark blue text */
+    font-size: 16px;
+  }
+  
+  a {
+    color: #7F92B1; /* blue for links */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Visualization Container */
+  .Viz {
+    margin: 1% auto;
+    width: 90%;
+    max-width: 1200px;
+    padding: 2%;
+  }
+  
+  /* Specific Vega-Embed Styles */
+ .Viz.vega-embed {
+    display: flex;
+    justify-content: center;
+  }
+  .Viz.vega-embed details,
+ .Viz.vega-embed details summary {
+    position: relative;
+  }
+  
+  /* Buttons and Controls */
+  button,
+  input[type="submit"] {
+    background-color: #BB133E; /* red button */
+    color: #FFFFFF; /* white text */
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover,
+  input[type="submit"]:hover {
+    background-color: #7F92B1; /* blue on hover */
+  }
+
+  /* Footer */
+  footer {
+    width: 80%; /* Optional: limit the width of the footer for better readability */
+    margin: 3% auto; /* Centers the footer container horizontally */
+    text-align: left; /* Aligns the text to the left */
+    font-family: Arial, sans-serif; /* Sets a clean font style */
+    font-size: 12px; /* Adjusts the font size */
+    line-height: 1.6; /* Improves readability with proper line spacing */
+  }
+
+  footer h4 {
+    margin-bottom: 10px; /* Adds space between the heading and the list */
+    font-size: 12px; /* Slightly larger font for the heading */
+    color: #002664; /* Darker text for the heading */
+  }
+
+  footer ul {
+    list-style: decimal; /* Use numbers for the list */
+    padding-left: 20px; /* Adds space before the list items */
+  }
+
+  footer li {
+    margin-bottom: 10px; /* Adds space between each list item */
+  }
+  
